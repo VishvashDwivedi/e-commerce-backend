@@ -3,7 +3,6 @@ const { check, validationResult } = require('express-validator');
 const jwt = require("jsonwebtoken");
 const expressJwt = require("express-jwt");
 
-
 exports.signup = function(req,res){
 
     console.log('Sign-Up');
@@ -113,6 +112,7 @@ exports.signout = function(req,res){
 //  "auth" in here , which holds
 //  the id and some more info ... which is can be sent
 //  back as response to the front-end...
+
 exports.isSignedIn = expressJwt({
     secret: process.env.SECRET,
     userProperty: "auth"
