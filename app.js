@@ -1,7 +1,6 @@
 //   https://www.freecodecamp.org/news/simple-chat-application-in-node-js-using-express-mongoose-and-socket-io-ee62d94f5804/
 //   https://stackoverflow.com/questions/38306569/what-does-body-parser-do-with-express
 //   https://stackoverflow.com/questions/26417297/what-do-nodes-body-parser-and-cookie-parser-do-and-should-i-use-them
-
 require("dotenv").config();
 const mongoose = require('mongoose');
 const express = require('express');
